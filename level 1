@@ -1,0 +1,4 @@
+palabra = input("por favor ingrese una palabra no mayor de 10 letras") 
+(len(palabra))
+if palabra > 10:
+ print(palabra[:10], "...")
